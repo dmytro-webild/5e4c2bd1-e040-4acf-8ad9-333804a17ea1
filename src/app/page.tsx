@@ -97,11 +97,11 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Duplex Seating",              description: "Multi-level comfort with intimate corners and open spaces. Every seat tells a story.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189799-fx5e2kql.jpg",              imageAlt: "Modern duplex coffee shop seating design"
+              title: "Duplex Seating",              description: "Multi-level comfort with intimate corners and open spaces. Every seat tells a story.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773729328084-gg18424m.jpg",              imageAlt: "Modern duplex coffee shop seating design"
             },
             {
               id: 2,
-              title: "Leather Workshop",              description: "Watch artisans craft premium leather goods while you sip. Pure authenticity in action.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189799-20b18rbw.jpg",              imageAlt: "Artisan leather workshop crafting premium details"
+              title: "Leather Workshop",              description: "Watch artisans craft premium leather goods while you sip. Pure authenticity in action.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773729328085-vyb5h7wf.jpg",              imageAlt: "Artisan leather workshop crafting premium details"
             }
           ]}
           textboxLayout="default"
@@ -119,13 +119,13 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           products={[
             {
-              id: "velvet-espresso",              name: "Velvet Espresso",              price: "8,500₮",              variant: "Single Origin Ethiopia",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189799-i7b4okiv.jpg",              imageAlt: "Velvet Espresso - rich and velvety single origin coffee"
+              id: "velvet-espresso",              name: "Velvet Espresso",              price: "8,500₮",              variant: "Single Origin Ethiopia",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773729328085-220yxdi8.jpg",              imageAlt: "Velvet Espresso - rich and velvety single origin coffee"
             },
             {
-              id: "golden-cardamom-blend",              name: "Golden Cardamom Blend",              price: "7,500₮",              variant: "Spiced Perfection",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-hand-holding-emty-teapot_140725-12902.jpg",              imageAlt: "Golden Cardamom Blend - aromatic spiced coffee drink"
+              id: "golden-cardamom-blend",              name: "Golden Cardamom Blend",              price: "7,500₮",              variant: "Spiced Perfection",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773729328085-quw8eizl.png",              imageAlt: "Golden Cardamom Blend - aromatic spiced coffee drink"
             },
             {
-              id: "midnight-cold-brew",              name: "Midnight Cold Brew",              price: "7,000₮",              variant: "48-Hour Steep",              imageSrc: "http://img.b2bpic.net/free-photo/refreshing-boozy-white-russian-cocktail-with-vodka-cream_123827-37413.jpg",              imageAlt: "Midnight Cold Brew - smooth and silky cold coffee"
+              id: "midnight-cold-brew",              name: "Midnight Cold Brew",              price: "7,000₮",              variant: "48-Hour Steep",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773729328085-jdd3018c.png",              imageAlt: "Midnight Cold Brew - smooth and silky cold coffee"
             },
             {
               id: "honey-lavender-latte",              name: "Honey Lavender Latte",              price: "8,000₮",              variant: "Floral & Smooth",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-ikkmcbiq.jpg?_wi=2",              imageAlt: "Honey Lavender Latte - delicate floral coffee experience"
