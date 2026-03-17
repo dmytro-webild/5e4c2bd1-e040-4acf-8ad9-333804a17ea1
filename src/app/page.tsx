@@ -51,7 +51,7 @@ export default function LandingPage() {
             { text: "Visit Us Today", href: "#contact" }
           ]}
           buttonAnimation="slide-up"
-          background={{ variant: "grid" }}
+          background={{ variant: "plain" }}
           mediaItems={[
             {
               imageSrc: "http://img.b2bpic.net/free-photo/traveller-texting-messages-before-skiing_482257-76509.jpg",              imageAlt: "Cozy coffee shop with warm lighting and comfortable seating"
@@ -183,7 +183,7 @@ export default function LandingPage() {
           title="Ready for an Escape?"
           description="Join us at Cozy Haven. Book a visit or drop us a message—we'd love to welcome you."
           tagAnimation="slide-up"
-          background={{ variant: "grid" }}
+          background={{ variant: "plain" }}
           useInvertedBackground={true}
           inputPlaceholder="Enter your email"
           buttonText="Notify Me"
