@@ -50,7 +50,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
-          brandName="Mondo House"
+          brandName="Coffee Shop"
           navItems={[
             { name: "Home", id: "hero" },
             { name: "About", id: "about" },
@@ -93,7 +93,7 @@ export default function LandingPage() {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-9yu6yijx.jpg",              imageAlt: "Leather workshop and craftsmanship"
             }
           ]}
-          ariaLabel="Hero section - Mondo House Coffee Shop"
+          ariaLabel="Hero section - Coffee Shop"
         />
       </div>
 
@@ -114,7 +114,7 @@ export default function LandingPage() {
 
       <div id="experience" data-section="experience">
         <FeatureCardEight
-          title="The Mondo House Experience"
+          title="The Coffee Shop Experience"
           description="More than coffee—it's an escape. Enjoy our unique duplex setting paired with a working leather workshop."
           tag="What Makes Us Special"
           tagAnimation="slide-up"
@@ -186,7 +186,7 @@ export default function LandingPage() {
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardSixteen
           title="What Our Guests Say"
-          description="Real words from people who've made Mondo House their escape."
+          description="Real words from people who've made our coffee shop their escape."
           tag="Testimonials"
           tagAnimation="slide-up"
           testimonials={[
@@ -323,7 +323,7 @@ export default function LandingPage() {
         <ContactCenter
           tag="Your New Favorite Place"
           title="Ready for an Escape?"
-          description="Join us at Mondo House. Book a visit or drop us a message—we'd love to welcome you."
+          description="Join us at our coffee shop. Book a visit or drop us a message—we'd love to welcome you."
           tagAnimation="slide-up"
           background={{ variant: "plain" }}
           useInvertedBackground={true}
@@ -336,7 +336,7 @@ export default function LandingPage() {
 
       <div id="footer" data-section="footer">
         <FooterBaseCard
-          logoText="Mondo House"
+          logoText="Coffee Shop"
           columns={[
             {
               title: "Navigate",              items: [
@@ -351,7 +351,7 @@ export default function LandingPage() {
                 { label: "Address", href: "#" },
                 { label: "Hours", href: "#" },
                 { label: "Phone", href: "tel:+97699999999" },
-                { label: "Email", href: "mailto:hello@mondohouse.mn" }
+                { label: "Email", href: "mailto:hello@coffeeshop.mn" }
               ]
             },
             {
@@ -363,7 +363,7 @@ export default function LandingPage() {
               ]
             }
           ]}
-          copyrightText="© 2025 Mondo House Coffee & Leather Workshop. All rights reserved."
+          copyrightText="© 2025 Coffee Shop. All rights reserved."
           ariaLabel="Site footer"
         />
       </div>
