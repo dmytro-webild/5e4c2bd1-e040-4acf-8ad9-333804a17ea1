@@ -119,13 +119,19 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           products={[
             {
-              id: "espresso-airag",              name: "Espresso Airag",              price: "8,500₮",              variant: "Unique Blend",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189799-i7b4okiv.jpg",              imageAlt: "Specialty espresso airag signature drink"
+              id: "velvet-espresso",              name: "Velvet Espresso",              price: "8,500₮",              variant: "Single Origin Ethiopia",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189799-i7b4okiv.jpg",              imageAlt: "Velvet Espresso - rich and velvety single origin coffee"
             },
             {
-              id: "traditional-mongolian",              name: "Traditional Mongolian",              price: "6,500₮",              variant: "Heritage Recipe",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-hand-holding-emty-teapot_140725-12902.jpg",              imageAlt: "Traditional Mongolian coffee beverage"
+              id: "golden-cardamom-blend",              name: "Golden Cardamom Blend",              price: "7,500₮",              variant: "Spiced Perfection",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-hand-holding-emty-teapot_140725-12902.jpg",              imageAlt: "Golden Cardamom Blend - aromatic spiced coffee drink"
             },
             {
-              id: "cold-brew-classic",              name: "Cold Brew Classic",              price: "7,000₮",              variant: "24-Hour Steep",              imageSrc: "http://img.b2bpic.net/free-photo/refreshing-boozy-white-russian-cocktail-with-vodka-cream_123827-37413.jpg",              imageAlt: "Premium cold brew coffee"
+              id: "midnight-cold-brew",              name: "Midnight Cold Brew",              price: "7,000₮",              variant: "48-Hour Steep",              imageSrc: "http://img.b2bpic.net/free-photo/refreshing-boozy-white-russian-cocktail-with-vodka-cream_123827-37413.jpg",              imageAlt: "Midnight Cold Brew - smooth and silky cold coffee"
+            },
+            {
+              id: "honey-lavender-latte",              name: "Honey Lavender Latte",              price: "8,000₮",              variant: "Floral & Smooth",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-ikkmcbiq.jpg",              imageAlt: "Honey Lavender Latte - delicate floral coffee experience"
+            },
+            {
+              id: "dark-cherry-mocha",              name: "Dark Cherry Mocha",              price: "8,200₮",              variant: "Premium Blend",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-mvx34qs7.jpg",              imageAlt: "Dark Cherry Mocha - rich chocolate and cherry fusion"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
