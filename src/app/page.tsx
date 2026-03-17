@@ -54,10 +54,10 @@ export default function LandingPage() {
           background={{ variant: "plain" }}
           mediaItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-ikkmcbiq.jpg",              imageAlt: "Cozy coffee shop with warm lighting and comfortable seating"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-ikkmcbiq.jpg?_wi=1",              imageAlt: "Cozy coffee shop with warm lighting and comfortable seating"
             },
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-mvx34qs7.jpg",              imageAlt: "Premium coffee preparation area"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-mvx34qs7.jpg?_wi=1",              imageAlt: "Premium coffee preparation area"
             },
             {
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-tlw08bfx.jpg",              imageAlt: "Artisan workspace and coffee bar"
@@ -128,10 +128,10 @@ export default function LandingPage() {
               id: "midnight-cold-brew",              name: "Midnight Cold Brew",              price: "7,000₮",              variant: "48-Hour Steep",              imageSrc: "http://img.b2bpic.net/free-photo/refreshing-boozy-white-russian-cocktail-with-vodka-cream_123827-37413.jpg",              imageAlt: "Midnight Cold Brew - smooth and silky cold coffee"
             },
             {
-              id: "honey-lavender-latte",              name: "Honey Lavender Latte",              price: "8,000₮",              variant: "Floral & Smooth",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-ikkmcbiq.jpg",              imageAlt: "Honey Lavender Latte - delicate floral coffee experience"
+              id: "honey-lavender-latte",              name: "Honey Lavender Latte",              price: "8,000₮",              variant: "Floral & Smooth",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-ikkmcbiq.jpg?_wi=2",              imageAlt: "Honey Lavender Latte - delicate floral coffee experience"
             },
             {
-              id: "dark-cherry-mocha",              name: "Dark Cherry Mocha",              price: "8,200₮",              variant: "Premium Blend",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-mvx34qs7.jpg",              imageAlt: "Dark Cherry Mocha - rich chocolate and cherry fusion"
+              id: "dark-cherry-mocha",              name: "Dark Cherry Mocha",              price: "8,200₮",              variant: "Premium Blend",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-mvx34qs7.jpg?_wi=2",              imageAlt: "Dark Cherry Mocha - rich chocolate and cherry fusion"
             }
           ]}
           gridVariant="three-columns-all-equal-width"
