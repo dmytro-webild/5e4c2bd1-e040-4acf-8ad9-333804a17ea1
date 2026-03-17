@@ -54,7 +54,7 @@ export default function LandingPage() {
           background={{ variant: "plain" }}
           mediaItems={[
             {
-              imageSrc: "http://img.b2bpic.net/free-photo/traveller-texting-messages-before-skiing_482257-76509.jpg",              imageAlt: "Cozy coffee shop with warm lighting and comfortable seating"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189798-ncpyqr7o.jpg",              imageAlt: "Cozy coffee shop with warm lighting and comfortable seating"
             }
           ]}
           ariaLabel="Hero section - Cozy Haven Coffee Shop"
@@ -64,7 +64,8 @@ export default function LandingPage() {
       <div id="about" data-section="about">
         <InlineImageSplitTextAbout
           heading={[
-            { type: "text", content: "A Story of Passion & Craft" }
+            { type: "text", content: "A Story of Passion & Craft" },
+            { type: "image", src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189799-qs3tvwo0.jpg", alt: "Coffee and leather craftsmanship" }
           ]}
           buttons={[
             { text: "Learn More", href: "#experience" }
@@ -84,11 +85,11 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              title: "Duplex Seating",              description: "Multi-level comfort with intimate corners and open spaces. Every seat tells a story.",              imageSrc: "http://img.b2bpic.net/free-photo/wide-restaurant-hall-with-wooden-table-chairs-6-persons_140725-8910.jpg",              imageAlt: "Modern duplex coffee shop seating design"
+              title: "Duplex Seating",              description: "Multi-level comfort with intimate corners and open spaces. Every seat tells a story.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189799-fx5e2kql.jpg",              imageAlt: "Modern duplex coffee shop seating design"
             },
             {
               id: 2,
-              title: "Leather Workshop",              description: "Watch artisans craft premium leather goods while you sip. Pure authenticity in action.",              imageSrc: "http://img.b2bpic.net/free-photo/tailoring-workshop-arrangement-table_23-2148970731.jpg",              imageAlt: "Artisan leather workshop crafting premium details"
+              title: "Leather Workshop",              description: "Watch artisans craft premium leather goods while you sip. Pure authenticity in action.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189799-20b18rbw.jpg",              imageAlt: "Artisan leather workshop crafting premium details"
             }
           ]}
           textboxLayout="default"
@@ -106,7 +107,7 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           products={[
             {
-              id: "espresso-airag",              name: "Espresso Airag",              price: "8,500₮",              variant: "Unique Blend",              imageSrc: "http://img.b2bpic.net/free-photo/hot-cup-coffee-with-cream-macaroon_140725-7521.jpg",              imageAlt: "Specialty espresso airag signature drink"
+              id: "espresso-airag",              name: "Espresso Airag",              price: "8,500₮",              variant: "Unique Blend",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189799-i7b4okiv.jpg",              imageAlt: "Specialty espresso airag signature drink"
             },
             {
               id: "traditional-mongolian",              name: "Traditional Mongolian",              price: "6,500₮",              variant: "Heritage Recipe",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-hand-holding-emty-teapot_140725-12902.jpg",              imageAlt: "Traditional Mongolian coffee beverage"
