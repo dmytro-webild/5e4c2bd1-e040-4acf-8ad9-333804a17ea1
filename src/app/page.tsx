@@ -54,7 +54,19 @@ export default function LandingPage() {
           background={{ variant: "plain" }}
           mediaItems={[
             {
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728189798-ncpyqr7o.jpg",              imageAlt: "Cozy coffee shop with warm lighting and comfortable seating"
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-ikkmcbiq.jpg",              imageAlt: "Cozy coffee shop with warm lighting and comfortable seating"
+            },
+            {
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-mvx34qs7.jpg",              imageAlt: "Premium coffee preparation area"
+            },
+            {
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-tlw08bfx.jpg",              imageAlt: "Artisan workspace and coffee bar"
+            },
+            {
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-qzujjgtq.jpg",              imageAlt: "Cozy seating arrangement"
+            },
+            {
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3B3kHYi03TNsSDsRM9Ab1CVno1c/uploaded-1773728564093-9yu6yijx.jpg",              imageAlt: "Leather workshop and craftsmanship"
             }
           ]}
           ariaLabel="Hero section - Cozy Haven Coffee Shop"
