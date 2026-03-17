@@ -167,20 +167,44 @@ export default function LandingPage() {
           tagAnimation="slide-up"
           testimonials={[
             {
-              id: "1",              name: "Sarah Johnson",              role: "Digital Nomad",              company: "Remote Worker",              rating: 5,
+              id: "1",              name: "Batchuluun Otgonzaya",              role: "Coffee Enthusiast",              company: "Local Community",              rating: 5,
               imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-smiling-woman-sweater-standing-with-arms-folded-isolated-gray-background_231208-7348.jpg"
             },
             {
-              id: "2",              name: "Michael Chen",              role: "Business Owner",              company: "Local Startup",              rating: 5,
+              id: "2",              name: "Panacea Cruden",              role: "Designer",              company: "Creative Collective",              rating: 5,
               imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-businessman-office-clothing_23-2148763859.jpg"
             },
             {
-              id: "3",              name: "Amara Tserendorj",              role: "Artist & Designer",              company: "Creative Studio",              rating: 5,
+              id: "3",              name: "Gantig Bayrmaa",              role: "Artist",              company: "Independent Creator",              rating: 5,
               imageSrc: "http://img.b2bpic.net/free-photo/stylish-woman-silk-beige-dress-orange-oversized-blazer-green-positive-emotions-smile_343596-6539.jpg"
             },
             {
-              id: "4",              name: "David Kim",              role: "Barista Enthusiast",              company: "Coffee Connoisseur",              rating: 5,
+              id: "4",              name: "Цэрэнсодном Энхбаатар",              role: "Entrepreneur",              company: "Local Business",              rating: 5,
               imageSrc: "http://img.b2bpic.net/free-photo/front-view-smiley-woman-holding-cup_23-2149442323.jpg"
+            },
+            {
+              id: "5",              name: "Enkhuush Enkhuush",              role: "Writer",              company: "Content Creator",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-smiling-woman-sweater-standing-with-arms-folded-isolated-gray-background_231208-7348.jpg"
+            },
+            {
+              id: "6",              name: "Enguilen Gan-Erdene",              role: "Musician",              company: "Independent Artist",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-businessman-office-clothing_23-2148763859.jpg"
+            },
+            {
+              id: "7",              name: "it's me XIII",              role: "Blogger",              company: "Digital Influencer",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/stylish-woman-silk-beige-dress-orange-oversized-blazer-green-positive-emotions-smile_343596-6539.jpg"
+            },
+            {
+              id: "8",              name: "Bayasgalan Boldbaatar",              role: "Consultant",              company: "Strategic Partner",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/front-view-smiley-woman-holding-cup_23-2149442323.jpg"
+            },
+            {
+              id: "9",              name: "맹남주",              role: "Cultural Ambassador",              company: "International Connection",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/portrait-cheerful-smiling-woman-sweater-standing-with-arms-folded-isolated-gray-background_231208-7348.jpg"
+            },
+            {
+              id: "10",              name: "Sarah Johnson",              role: "Digital Nomad",              company: "Remote Worker",              rating: 5,
+              imageSrc: "http://img.b2bpic.net/free-photo/front-view-young-businessman-office-clothing_23-2148763859.jpg"
             }
           ]}
           kpiItems={[
