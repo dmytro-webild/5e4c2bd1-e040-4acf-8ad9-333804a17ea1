@@ -10,8 +10,31 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
+import { useState } from 'react';
+import { MessageCircle } from 'lucide-react';
 
 export default function LandingPage() {
+  const [feedbackTitle, setFeedbackTitle] = useState('');
+  const [feedbackMessage, setFeedbackMessage] = useState('');
+  const [feedbackType, setFeedbackType] = useState('feedback');
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleFeedbackSubmit = () => {
+    if (feedbackTitle.trim() && feedbackMessage.trim()) {
+      console.log({
+        type: feedbackType,
+        title: feedbackTitle,
+        message: feedbackMessage,
+        timestamp: new Date().toISOString()
+      });
+      setFeedbackTitle('');
+      setFeedbackMessage('');
+      setFeedbackType('feedback');
+      setSubmitted(true);
+      setTimeout(() => setSubmitted(false), 3000);
+    }
+  };
+
   return (
     <ThemeProvider
       defaultButtonVariant="bounce-effect"
@@ -33,7 +56,8 @@ export default function LandingPage() {
             { name: "About", id: "about" },
             { name: "Experience", id: "experience" },
             { name: "Menu", id: "menu" },
-            { name: "Testimonials", id: "testimonials" }
+            { name: "Testimonials", id: "testimonials" },
+            { name: "Feedback", id: "feedback" }
           ]}
           button={{
             text: "Visit Us Today",            href: "#contact"
@@ -210,6 +234,91 @@ export default function LandingPage() {
         />
       </div>
 
+      <div id="feedback" data-section="feedback">
+        <div className="w-full py-20 px-6 bg-gradient-to-b from-transparent to-transparent">
+          <div className="max-w-3xl mx-auto">
+            <div className="mb-12 text-center">
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-6">
+                <MessageCircle className="w-8 h-8 text-blue-600" />
+              </div>
+              <h2 className="text-4xl font-bold mb-4 text-foreground">We Value Your Feedback</h2>
+              <p className="text-lg text-foreground/70">Help us improve your experience. Share your thoughts, suggestions, or report any issues.</p>
+            </div>
+
+            <div className="bg-card rounded-2xl p-8 shadow-lg">
+              <div className="mb-6">
+                <label className="block text-sm font-semibold text-foreground mb-3">Type</label>
+                <select
+                  value={feedbackType}
+                  onChange={(e) => setFeedbackType(e.target.value)}
+                  className="w-full px-4 py-3 rounded-lg border border-accent bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-primary-cta"
+                >
+                  <option value="feedback">General Feedback</option>
+                  <option value="complaint">Complaint</option>
+                  <option value="suggestion">Suggestion</option>
+                  <option value="compliment">Compliment</option>
+                </select>
+              </div>
+
+              <div className="mb-6">
+                <label className="block text-sm font-semibold text-foreground mb-3">Title</label>
+                <input
+                  type="text"
+                  value={feedbackTitle}
+                  onChange={(e) => setFeedbackTitle(e.target.value)}
+                  placeholder="What's this about?"
+                  className="w-full px-4 py-3 rounded-lg border border-accent bg-background text-foreground placeholder-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary-cta"
+                />
+              </div>
+
+              <div className="mb-6">
+                <label className="block text-sm font-semibold text-foreground mb-3">Your Message</label>
+                <textarea
+                  value={feedbackMessage}
+                  onChange={(e) => setFeedbackMessage(e.target.value)}
+                  placeholder="Tell us what's on your mind. Be as detailed as you'd like."
+                  rows={6}
+                  className="w-full px-4 py-3 rounded-lg border border-accent bg-background text-foreground placeholder-foreground/50 focus:outline-none focus:ring-2 focus:ring-primary-cta resize-none"
+                />
+              </div>
+
+              <button
+                onClick={handleFeedbackSubmit}
+                disabled={!feedbackTitle.trim() || !feedbackMessage.trim()}
+                className="w-full py-3 px-6 rounded-lg font-semibold text-white transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                style={{
+                  backgroundColor: feedbackTitle.trim() && feedbackMessage.trim() ? 'var(--primary-cta)' : 'var(--accent)',
+                  cursor: feedbackTitle.trim() && feedbackMessage.trim() ? 'pointer' : 'not-allowed'
+                }}
+              >
+                {submitted ? '✓ Thank You! Your feedback has been received.' : 'Submit Feedback'}
+              </button>
+
+              {submitted && (
+                <div className="mt-4 p-4 bg-green-100 text-green-800 rounded-lg text-center text-sm">
+                  We appreciate your input and will review it shortly.
+                </div>
+              )}
+            </div>
+
+            <div className="mt-12 grid grid-cols-3 gap-6 text-center">
+              <div>
+                <div className="text-2xl font-bold text-primary-cta mb-2">100+</div>
+                <p className="text-foreground/70 text-sm">Feedback Received</p>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-primary-cta mb-2">95%</div>
+                <p className="text-foreground/70 text-sm">Satisfaction Rate</p>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-primary-cta mb-2">24h</div>
+                <p className="text-foreground/70 text-sm">Response Time</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div id="contact" data-section="contact">
         <ContactCenter
           tag="Your New Favorite Place"
@@ -250,7 +359,7 @@ export default function LandingPage() {
                 { label: "Instagram", href: "https://instagram.com" },
                 { label: "Facebook", href: "https://facebook.com" },
                 { label: "Contact", href: "#contact" },
-                { label: "Newsletter", href: "#contact" }
+                { label: "Feedback", href: "#feedback" }
               ]
             }
           ]}
